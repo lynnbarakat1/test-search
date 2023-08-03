@@ -1,0 +1,33 @@
+.search-form {
+  border-radius: 20px;
+}
+
+.bg-color {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.search-form {
+  outline: none;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.all-results {
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.all-results:hover {
+  background-color: #fff;
+}
+
+.results:last-child .seperator {
+  display: none;
+}
+
+.highlight {
+  background-color: yellow;
+}
